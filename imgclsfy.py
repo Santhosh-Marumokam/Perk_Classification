@@ -53,6 +53,6 @@ iface = gr.Interface(
 )
 
 # Launch the interface
-iface.launch(server_port = 7880, share=True)
+iface.launch(server_name="0.0.0.0", server_port=8000)
 
 
