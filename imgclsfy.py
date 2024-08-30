@@ -25,7 +25,7 @@ model = YOLO('./runs/classify/train11/weights/best.pt')
 
 
 
-from tkinter import Button
+#from tkinter import Button
 import gradio as gr
 
 def classify_image(inp):
